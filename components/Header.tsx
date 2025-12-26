@@ -18,22 +18,20 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white shadow-lg py-3' : 'bg-transparent py-5'
-    }`}>
-      <div className="container mx-auto px-6 flex justify-between items-center">
+    <nav className={`w-[100%] fixed  z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-lg py-3' : 'bg-transparent py-5'
+      }`}>
+      <div className="w-[100%]  px-[70px] flex justify-between items-center">
         <a href="#inicio" className="flex items-center space-x-2">
           <div className={`p-2 rounded-lg ${scrolled ? 'bg-blue-600 text-white' : 'text-blue-600'}`}>
-<img
-  src="/image.png"
-  alt="fondo"
-  className="w-[60px] h-[60px]"
-/>
+            <img
+              src="/image.png"
+              alt="fondo"
+              className="w-[60px] h-[60px]"
+            />
 
           </div>
-          <span className={`text-1xl font-extrabold tracking-tight ${
-            scrolled ? 'text-blue-900' : 'text-white'
-          }`}>
+          <span className={`text-1xl font-extrabold tracking-tight ${scrolled ? 'text-blue-900' : 'text-white'
+            }`}>
             TRANSPORTE <span className="text-blue-400">PAKAMUROS S.A.C</span>
           </span>
         </a>
@@ -44,27 +42,25 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
             <a
               key={link.name}
               href={link.href}
-              className={`font-medium text-sm transition-colors hover:text-blue-400 ${
-                scrolled ? 'text-slate-700' : 'text-white'
-              }`}
+              className={`font-medium text-sm transition-colors hover:text-blue-400 ${scrolled ? 'text-slate-700' : 'text-white'
+                }`}
             >
               {link.name}
             </a>
           ))}
           <a
             href="#contacto"
-            className={`px-6 py-2 rounded-full text-sm font-bold transition-all transform hover:scale-105 ${
-              scrolled 
-                ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-md' 
+            className={`px-6 py-2 rounded-full text-sm font-bold transition-all transform hover:scale-105 ${scrolled
+                ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-md'
                 : 'bg-white text-blue-900 hover:bg-blue-50'
-            }`}
+              }`}
           >
             Cotizar
           </a>
         </div>
 
         {/* Mobile Toggle */}
-        <button 
+        <button
           className="md:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
         >

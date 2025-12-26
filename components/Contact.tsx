@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
@@ -121,12 +120,18 @@ const Contact: React.FC = () => {
               </div>
             </form>
 
-            <div className="mt-12 rounded-2xl overflow-hidden h-64 grayscale hover:grayscale-0 transition-all duration-700 border border-slate-200">
-               {/* Placeholder for Map */}
-               <div className="w-full h-full bg-slate-200 flex items-center justify-center text-slate-400 font-bold flex-col gap-2">
-                  <MapPin size={48} />
-                  <span>Ubicación Estratégica en Lima</span>
-               </div>
+            <div className="mt-12 rounded-2xl overflow-hidden h-64 border border-slate-200 hover:shadow-lg transition-all duration-300">
+               {/* Google Maps Embed - Cajamarca */}
+               <iframe 
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31598.73547!2d-78.5196!3d-7.1631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25bb0b15b2e91%3A0x4027670e8bd59ac!2sCajamarca%2C%20Peru!5e0!3m2!1sen!2spe!4v1234567890"
+                 width="100%"
+                 height="100%"
+                 style={{ border: 0 }}
+                 allowFullScreen
+                 loading="lazy"
+                 referrerPolicy="no-referrer-when-downgrade"
+                 className="grayscale hover:grayscale-0 transition-all duration-700"
+               ></iframe>
             </div>
           </div>
         </div>

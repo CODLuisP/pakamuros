@@ -3,10 +3,10 @@ import React from 'react';
 
 const fleetImages = [
   'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1591768793355-74d7c836038c?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1594776208131-aa1036505bb8?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1501700489910-fb24f80f688a?auto=format&fit=crop&q=80&w=800',
+  'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&q=80&w=800',
+  'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&q=80&w=800',
+  'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&q=80&w=800',
+  'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&q=80&w=800',
   'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&q=80&w=800',
 ];
 
@@ -24,7 +24,7 @@ const Fleet: React.FC = () => {
           <div className="flex gap-4">
              <div className="flex items-center gap-2 text-blue-700 font-bold bg-blue-50 px-4 py-2 rounded-lg">
                 <span className="w-3 h-3 bg-blue-600 rounded-full"></span>
-                Euro 5 & 6 Compliant
+                Mercedez Benz
              </div>
              <div className="flex items-center gap-2 text-blue-700 font-bold bg-blue-50 px-4 py-2 rounded-lg">
                 <span className="w-3 h-3 bg-blue-600 rounded-full"></span>

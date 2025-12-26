@@ -36,7 +36,7 @@ const Services: React.FC = () => {
         <div className="max-w-3xl mb-16">
           <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-2">Lo que hacemos</h2>
           <h3 className="text-4xl font-bold text-blue-900 mb-6">Nuestros Servicios Integrales</h3>
-          <p className="text-lg text-slate-600">Ofrecemos soluciones end-to-end para su cadena de suministro, garantizando eficiencia y reducción de costos operativos.</p>
+          <p className="text-md text-slate-600">Ofrecemos soluciones end-to-end para su cadena de suministro, garantizando eficiencia y reducción de costos operativos.</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -48,8 +48,8 @@ const Services: React.FC = () => {
               <div className={`${item.color} w-16 h-16 rounded-xl flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform`}>
                 {item.icon}
               </div>
-              <h4 className="text-xl font-bold text-blue-900 mb-4">{item.title}</h4>
-              <p className="text-slate-600 mb-6 line-clamp-3">
+              <h4 className="text-md font-bold text-blue-900 mb-4">{item.title}</h4>
+              <p className="text-sm text-slate-600 mb-6 line-clamp-3">
                 {item.desc}
               </p>
               <a href="#contacto" className="inline-flex items-center text-blue-600 font-bold hover:text-blue-800 transition-colors">

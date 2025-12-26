@@ -13,7 +13,7 @@ const WhyUs: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-8">¿Por Qué Elegirnos?</h2>
-            <p className="text-blue-100 text-lg mb-12">
+            <p className="text-blue-100 text-md mb-12">
               Contamos con años de experiencia liderando el sector de transporte pesado, brindando soluciones que permiten a nuestros clientes centrarse en su negocio principal mientras nosotros cuidamos de su logística.
             </p>
 
@@ -29,7 +29,7 @@ const WhyUs: React.FC = () => {
                     <CheckCircle2 className="text-blue-400" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-xl mb-1">{feature.title}</h4>
+                    <h4 className="font-bold text-md mb-1">{feature.title}</h4>
                     <p className="text-blue-200">{feature.desc}</p>
                   </div>
                 </div>
@@ -38,27 +38,27 @@ const WhyUs: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-6">
-            <div className="space-y-6 pt-12">
+            <div className="space-y-6 pt-0">
               <div className="bg-white text-blue-900 p-8 rounded-2xl shadow-2xl flex flex-col items-center text-center">
                 <Award size={40} className="mb-4 text-blue-600" />
-                <div className="text-4xl font-black mb-2">99.9%</div>
+                <div className="text-2xl font-black mb-2">99.9%</div>
                 <p className="text-sm font-bold uppercase tracking-wider text-slate-500">Efectividad</p>
               </div>
               <div className="bg-blue-700/50 backdrop-blur-md p-8 rounded-2xl border border-white/20 flex flex-col items-center text-center">
                 <MapPin size={40} className="mb-4 text-blue-300" />
-                <div className="text-4xl font-black mb-2">100%</div>
+                <div className="text-2xl font-black mb-2">100%</div>
                 <p className="text-sm font-bold uppercase tracking-wider text-blue-200">Cobertura Nacional</p>
               </div>
             </div>
             <div className="space-y-6">
               <div className="bg-blue-600 p-8 rounded-2xl border border-white/20 flex flex-col items-center text-center shadow-xl">
                 <Users size={40} className="mb-4 text-white" />
-                <div className="text-4xl font-black mb-2">+250</div>
+                <div className="text-2xl font-black mb-2">+250</div>
                 <p className="text-sm font-bold uppercase tracking-wider text-blue-100">Clientes VIP</p>
               </div>
               <div className="bg-white text-blue-900 p-8 rounded-2xl shadow-2xl flex flex-col items-center text-center">
                 <Activity size={40} className="mb-4 text-blue-600" />
-                <div className="text-4xl font-black mb-2">24/7</div>
+                <div className="text-2xl font-black mb-2">24/7</div>
                 <p className="text-sm font-bold uppercase tracking-wider text-slate-500">Monitoreo</p>
               </div>
             </div>
